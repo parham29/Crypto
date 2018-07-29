@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pt29.crypto.Activities.MainActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/activity_with_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/navbottom"
+            app:elevation="8dp"
+            app:itemIconTint="@drawable/selector_bottombar_item"
+            app:itemTextColor="@drawable/selector_bottombar_item"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_frame"
+            app:menu="@menu/navigation" />
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/coins_list_background"
+            app:layout_constraintBottom_toTopOf="@+id/navigation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:tint="@color/tint"
+            app:backgroundTint="@color/navbottom"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/main_frame"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rippleColor="@color/colorAccent"
+            app:srcCompat="@drawable/ic_add" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--<android.support.constraint.ConstraintLayout-->
+    <!--android:id="@+id/container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/basecolor">-->
+
+    <!---->
+    <!--<com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx-->
+    <!--android:id="@+id/navigation"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@android:color/white"-->
+    <!--app:itemIconTint="@color/colorAccent"-->
+    <!--app:itemTextColor="@color/green"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:menu="@menu/navigation" />-->
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/main_frame"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/navigation"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b3851</color>
+    <color name="colorPrimaryDark">#112333</color>
+    <color name="basecolor">#1b3851</color>
+    <color name="appbarcolor">#1b3851</color>
+    <color name="colorAccent">#E2E6E5</color>
+    <color name="navbottom">#E2E6E5</color>
+
+    <color name="card_chart_color">#305f87</color>
+    <color name="bottom_multigrad_color">#0aE2E6E5</color>
+    <color name="top_multigrad_startcolor">#00E2E6E5</color>
+    <color name="top_multigrad_endcolor">#1eE2E6E5</color>
+
+    <color name="green">#4AD679</color>
+    <color name="red">#D32F2F</color>
+    <color name="tint">#7E8BA1</color>
+
+    <color name="txt_color_black">#E9E9E9</color>
+
+    <color name="autocomplete_item_background">#353C43</color>
+    <color name="coins_list_item_background">#353C43</color>
+    <color name="grid_list_item_background">#18191D</color>
+    <color name="coins_list_background">#18191D</color>
+</resources>

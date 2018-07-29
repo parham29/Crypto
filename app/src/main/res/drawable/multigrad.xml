@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape>
+
+            <gradient
+                android:angle="90"
+                android:startColor="@color/top_multigrad_startcolor"
+                android:endColor="@color/top_multigrad_endcolor" />
+
+
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="0"
+                android:endColor="@color/bottom_multigrad_color"
+                android:startColor="@color/bottom_multigrad_color"
+                 />
+
+
+        </shape>
+    </item>
+</layer-list>
